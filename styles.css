@@ -1,0 +1,58 @@
+
+/* Reseteo de estilos */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture,video,canvas,svg{
+    display: block;
+    max-width: 100%;
+}
+
+/* Variables de colores */
+
+:root{
+
+    /* Primarios */ 
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+   /* Neutrales */ 
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+
+}
+
+body{
+    background-color: var(--Cream);
+    padding: 1em;   
+}
+
+article{
+    
+}
+
+article figure{
+    background-image: url("./assets/img/image-product-mobile.jpg");
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 240px;
+    margin-bottom: 1.5rem;
+    margin-top: 12px;
+}
+
