@@ -128,3 +128,62 @@ button::before{
     font-size: 14px;
     margin-right: 0.5rem;
 }
+
+/* End-mobile */
+
+@media (min-width: 768px) {
+    body{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    article{
+        width: 411px;
+    }
+}
+
+/* End-tablet */
+
+@media (min-width: 1280px){
+    body{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper{
+        align-items: center;
+        display: flex;
+        height: 450px;
+        justify-content: center;
+        width: 600px;
+    }
+
+    article figure{
+        background-image: url("./assets/img/image-product-desktop.jpg");
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+        margin: 0px;
+        height: 450px;
+        width: 50%;
+    }
+
+    article article {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        justify-content: space-around;
+        padding: 2rem;
+        width: 50%;
+    }
+
+    span{
+        margin-right: 15px;
+    }
+
+}
