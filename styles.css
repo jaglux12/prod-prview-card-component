@@ -1,5 +1,5 @@
 
-/* Reseteo de estilos */
+/* ==== Reseteo de estilos ==== */
 
 *{
     box-sizing: border-box;
@@ -21,7 +21,7 @@ img, picture,video,canvas,svg{
     max-width: 100%;
 }
 
-/* Variables de colores */
+/* ==== Variables de colores ==== */
 
 :root{
 
@@ -41,10 +41,6 @@ body{
     padding: 1em;   
 }
 
-article{
-    
-}
-
 article figure{
     background-image: url("./assets/img/image-product-mobile.jpg");
     background-position: center;
@@ -55,4 +51,7 @@ article figure{
     margin-bottom: 1.5rem;
     margin-top: 12px;
 }
+
+
+/* ==== Textos ==== */
 
