@@ -1,3 +1,9 @@
+/*
+    Product preview card component
+    Creador @jaglux12 (https://github.com/jaglux12)
+    Proyecto n3 - Curso de Programación
+    Licencia - GNU/GPL v2
+*/
 
 /* ==== Reseteo de estilos ==== */
 
@@ -35,6 +41,8 @@ img, picture,video,canvas,svg{
     --White: hsl(0, 0%, 100%);
 
 }
+
+/* ==== Estilos ==== */
 
 body{
     background-color: var(--Cream);
